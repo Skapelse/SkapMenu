@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "skapclient",
+  "version": "${version}",
+  "name": "SkapClient",
+  "description": "A themed, animated client-style mod list with profiles and settings. Press K to open. Search, icons, themes, custom colours and animation settings.",
+  "authors": ["Skap"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.skapclient.SkapClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
